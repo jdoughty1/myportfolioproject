@@ -1,0 +1,17 @@
+.name {
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(238, 71, 11);
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(30, 3, 54);
+    font-family: 'Mouse Memoirs',
+        sans-serif;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(238, 71, 11);
+    font-size: 20px;
+}
