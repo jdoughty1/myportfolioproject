@@ -4,19 +4,44 @@
     --main-font-family:'Mouse Memoirs',sans-serif;
     --secondary-color:rgb(30, 3, 54);
 }
+.project{
+    text-align:center;
+    padding:160px 20px;
+    background:var(--secondary-color)
+
+}
 .name {
     font-family: var(--secondary-font-family);
     color: var(--primary-color);
-    font-size: 40px;
+    font-size: 96px;
 }
 
 body {
-    background-color: var(--secondary-color);
+   
     font-family: var(--main-font-family);
 }
 
 p {
     font-family: var(--secondary-font-family);
     color:var(--primary-color);
-    font-size: 20px;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    font-family: var(--secondary-font-family);
+    font-size: 24px;
+    line-height:2px;
+    color:var(--primary-color);
+    padding:0px 0px 25px 0px
+}
+
+.btn-btn-primary{
+    background: rgba(255, 255, 0, 0.952);
+    border-radius:4px;
+    color:var(--secondary-color);
+    font-sixe:18px;
+    line-height:27px;
+    padding:15px 30px;
+
 }
