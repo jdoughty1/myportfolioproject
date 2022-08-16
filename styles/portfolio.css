@@ -1,13 +1,16 @@
 :root{
-    --primary-color:rgb(238, 71, 11);
+    --primary-color:rgb(238, 119, 9);
     --secondary-font-family:'Shadows Into Light',cursive;
     --main-font-family:'Mouse Memoirs',sans-serif;
     --secondary-color:rgb(30, 3, 54);
+    --button-color:rgba(255, 251, 14, 0.952);
 }
 .project{
     text-align:center;
     padding:160px 20px;
-    background:var(--secondary-color)
+    line-height: 6px ;
+    color:var(--primary-color);
+  
 
 }
 .name {
@@ -17,14 +20,14 @@
 }
 
 body {
-   
+   background-color:var(--secondary-color);
     font-family: var(--main-font-family);
 }
 
 p {
     font-family: var(--secondary-font-family);
     color:var(--primary-color);
-    font-size: 36px;
+    font-size: 45px;
     margin: 0;
 }
 
@@ -33,15 +36,53 @@ h2{
     font-size: 24px;
     line-height:2px;
     color:var(--primary-color);
-    padding:0px 0px 25px 0px
+    padding:25px 0px 25px 0px
 }
 
 .btn-btn-primary{
-    background: rgba(255, 255, 0, 0.952);
+    background: var(--button-color) ;
     border-radius:4px;
     color:var(--secondary-color);
-    font-sixe:18px;
+    font-size:25px;
     line-height:27px;
-    padding:15px 30px;
-
+    padding:10px 30px;
+    text-decoration: none;
 }
+.project-description p{
+    font-size:  26px;
+    line-height:30px;
+    color:var(--primary-color);
+}
+.project-description h2{
+    font-family: var(--secondary-font-family);
+        font-size: 64px;
+        line-height: 2px;
+        color: var(--primary-color);
+}
+
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        text-align: center;
+        line-height:2;
+    }
+
+    .project-desciption{
+        padding:0;
+        text-align:center;
+    }
+         h2 {
+             font-size: 44px;
+             text-align: center;
+             line-height: 2;
+         }
+
+    .hero{ 
+             padding: 80px 20px;
+    }
+    p{
+        color:var(--primary-color);
+    }
+}
+
