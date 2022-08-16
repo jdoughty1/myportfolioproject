@@ -48,12 +48,12 @@ h2{
     padding:10px 30px;
     text-decoration: none;
 }
-.project-description p{
+.project-desciption p{
     font-size:  26px;
     line-height:30px;
     color:var(--primary-color);
 }
-.project-description h2{
+.project-desciption h2{
     font-family: var(--secondary-font-family);
         font-size: 64px;
         line-height: 2px;
@@ -78,7 +78,7 @@ h2{
              line-height: 2;
          }
 
-    .hero{ 
+    .name{ 
              padding: 80px 20px;
     }
     p{
