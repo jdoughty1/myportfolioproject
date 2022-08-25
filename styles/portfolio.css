@@ -68,6 +68,9 @@ h2{
     line-height:80px;
     font-family: var(--main-font-family);
 }
+.content h2{font-size: 18px;
+    color: var(--primary-color);
+    font-family: var(--main-font-family);}
 
 .content-container {
     padding:160px 20px;
@@ -113,7 +116,7 @@ h2{
     p{
         color:var(--primary-color);
     }
-    .content-container{
+    .content{
         text-align: center;
         padding:0;
     }
