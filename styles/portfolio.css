@@ -59,25 +59,35 @@ h2{
         line-height: 2px;
         color: var(--primary-color);
 }
-
-.about-me h1{
+.content p{
+    font-size: 14px;
+    font-family: var(--secondary-font-family)
+}
+.content-container h1{
     font-size:64px;
     line-height:80px;
     font-family: var(--main-font-family);
 }
 
-.about-me {
+.content-container {
     padding:160px 20px;
 }
 
-.about-me-content{
-    margin:50px;
+.content{
+    margin:30px;
 }
 
-.about-me h2{
+.content-container h2{
     font-size:18px;
     color: var(--primary-color);
     font-family: var(--main-font-family);
+}
+.content-container h3 {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-family: var(--main-font-family);
+    line-height: 1;
+    margin: 20px 0 0;
 }
 
 @media (max-width: 900px) {
@@ -103,7 +113,7 @@ h2{
     p{
         color:var(--primary-color);
     }
-    .about-me{
+    .content-container{
         text-align: center;
         padding:0;
     }
