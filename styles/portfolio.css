@@ -63,6 +63,7 @@ h2{
     font-size: 24px;
     font-family: var(--secondary-font-family);
     color: var(--primary-color);
+    text-align: center;
 }
 .content h1{
     font-size:64px;
@@ -135,12 +136,14 @@ nav a {
 .content-container p {
     font-size: 24px;
     color: var(--primary-color);
-    font-family: var(--secondary-font-family);}
+    font-family: var(--secondary-font-family);
+text-align: center;}
 
 .content-container h2{
     font-size:36px;
     color: var(--primary-color);
     font-family: var(--main-font-family);
+    text-align: center;
 }
 .content-container h3 {
     font-size: 24px;
@@ -148,6 +151,7 @@ nav a {
     font-family: var(--main-font-family);
     line-height: 1;
     margin: 20px 0 0;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
